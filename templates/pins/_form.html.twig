@@ -1,4 +1,6 @@
+{% form_theme form 'foundation_5_layout.html.twig' %}
 {{ form_start(form) }}
+{{ form_label(form) }}
 {{ form_widget(form) }}
 
 <input type="submit" value=" {{submitButtonText ?? 'Create Pin'}} " class="btn btn-primary w-100 mt-4" formnovalidate>
